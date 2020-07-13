@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex main"] 1594611355 "main.aux" "main.bbl" "main" 1594611371
+["bibtex main"] 1594611355 "main.aux" "main.bbl" "main" 1594612262
   "/usr/local/texlive/2019/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "main.aux" 1594611367 1828 18762b9a9aa4f6add0c76640fb603ad1 "pdflatex"
+  "main.aux" 1594612257 1828 18762b9a9aa4f6add0c76640fb603ad1 "pdflatex"
   "refs.bib" 1594350314 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "main.bbl"
   "main.blg"
-["pdflatex"] 1594611365 "/Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/main.tex" "/Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/main.pdf" "main" 1594611371
-  "/Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/main.aux" 1594611367 1828 18762b9a9aa4f6add0c76640fb603ad1 ""
-  "/Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/main.tex" 1594605042 1839 94ae84325d3f796af23c218cb7efb8f0 ""
+  "main.bbl"
+["pdflatex"] 1594612255 "/Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/main.tex" "/Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/main.pdf" "main" 1594612262
+  "/Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/main.aux" 1594612257 1828 18762b9a9aa4f6add0c76640fb603ad1 ""
+  "/Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/main.tex" 1594612255 1839 94ae84325d3f796af23c218cb7efb8f0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -126,18 +126,18 @@
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
   "1_intro.tex" 1594350313 23 0724ce7a131568ad239c1aac91dfb03b ""
   "2_related.tex" 1594350314 23 f2be6c73b40df4b42b1f8d1e68eba65c ""
-  "3_method.tex" 1594611365 2242 727eb5dea9c7b44dbdbca8badb803046 ""
+  "3_method.tex" 1594612255 2245 6c68a1ee2b13bbae16246bbdd4363311 ""
   "4_exp.tex" 1594350314 29 5651653b6500c1ff28f0efed99abfe94 ""
   "5_results.tex" 1594350314 18 8b6cd60e546e7efa87d40ebbafe2dc8c ""
   "6_discuss.tex" 1594350314 21 bc2321953236e49c0a923bd0e83c84e8 ""
-  "main.aux" 1594611367 1828 18762b9a9aa4f6add0c76640fb603ad1 "pdflatex"
+  "main.aux" 1594612257 1828 18762b9a9aa4f6add0c76640fb603ad1 "pdflatex"
   "main.bbl" 1594611355 49 0eba253fc001332e731e8aba3f23127b "bibtex main"
-  "main.out" 1594611367 413 f3b7b0960a651ba4caba92d6e78f1fa2 "pdflatex"
-  "main.tex" 1594605042 1839 94ae84325d3f796af23c218cb7efb8f0 ""
+  "main.out" 1594612257 413 f3b7b0960a651ba4caba92d6e78f1fa2 "pdflatex"
+  "main.tex" 1594612255 1839 94ae84325d3f796af23c218cb7efb8f0 ""
   (generated)
-  "main.out"
-  "/Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/main.pdf"
-  "main.aux"
-  "main.pdf"
-  "/Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/main.log"
   "main.log"
+  "main.aux"
+  "main.out"
+  "main.pdf"
+  "/Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/main.pdf"
+  "/Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/main.log"
