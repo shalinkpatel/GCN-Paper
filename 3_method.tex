@@ -47,7 +47,7 @@ These layers were all chained together eventually creating an $N \times 2$ matri
 \subsection{Training}
 As a whole the entire network can be described as
 \[
-    \hat{y_i} = f_{gcn}(f_{conv}(X_i), \mathcal{G})
+    \hat{y_i} = \text{softmax}(f_{gcn}(f_{conv}(X_i), \mathcal{G}))
 \]
 Suppose that all of the learnable parameters in the model, which are initially random, are in the vector $\Theta$. Then using the standard cross entropy loss, we can calculate the loss with respect to $\Theta$
 \begin{align*}
