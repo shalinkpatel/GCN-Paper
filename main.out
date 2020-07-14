@@ -2,7 +2,13 @@
 \BOOKMARK [1][-]{section.2}{Related Work}{}% 2
 \BOOKMARK [1][-]{section.3}{Method}{}% 3
 \BOOKMARK [2][-]{subsection.3.1}{Formulation for Task}{section.3}% 4
-\BOOKMARK [2][-]{subsection.3.2}{Construction of GRNs}{section.3}% 5
-\BOOKMARK [1][-]{section.4}{Experimental Setup}{}% 6
-\BOOKMARK [1][-]{section.5}{Results}{}% 7
-\BOOKMARK [1][-]{section.6}{Discussion}{}% 8
+\BOOKMARK [2][-]{subsection.3.2}{Workflow}{section.3}% 5
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Construction of GRNs}{subsection.3.2}% 6
+\BOOKMARK [3][-]{subsubsection.3.2.2}{HM Encoding}{subsection.3.2}% 7
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Activation and Dropout.}{subsection.3.2}% 8
+\BOOKMARK [3][-]{subsubsection.3.2.4}{GCN Layer}{subsection.3.2}% 9
+\BOOKMARK [2][-]{subsection.3.3}{Training}{section.3}% 10
+\BOOKMARK [1][-]{section.4}{Experimental Setup}{}% 11
+\BOOKMARK [1][-]{section.5}{Results}{}% 12
+\BOOKMARK [2][-]{subsection.5.1}{Performance Evaluation}{section.5}% 13
+\BOOKMARK [1][-]{section.6}{Discussion}{}% 14

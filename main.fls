@@ -194,16 +194,6 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam1
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/ueuf.fd
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/ueuf.fd
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm7.tfm
-INPUT /Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/4_exp.tex
-INPUT /Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/4_exp.tex
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
@@ -225,21 +215,33 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/vf/adobe/courier/pcrr7t.vf
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
-INPUT /Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/5_results.tex
-INPUT /Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/5_results.tex
-INPUT /Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/6_discuss.tex
-INPUT /Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/6_discuss.tex
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
-INPUT /Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/main.bbl
-INPUT /Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/main.bbl
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/ueuf.fd
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/ueuf.fd
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm7.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/vf/adobe/courier/pcrr7t.vf
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
+INPUT /Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/4_exp.tex
+INPUT /Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/4_exp.tex
+INPUT /Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/5_results.tex
+INPUT /Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/5_results.tex
+INPUT /Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/6_discuss.tex
+INPUT /Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/6_discuss.tex
+INPUT /Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/main.bbl
+INPUT /Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/main.bbl
 INPUT /Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/main.aux
 INPUT /Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/main.out
 INPUT /Volumes/GoogleDrive/My Drive/Brown/Research/Singh Lab/GCN/GCN-Paper/main.out
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
@@ -247,6 +249,7 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
