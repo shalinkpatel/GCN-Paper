@@ -24,25 +24,12 @@ Throughout these processes, nonlinear activation and dropout is applied. These h
 
 \subsubsection{GCN Layer}
 The input into the GCN layers is, thus, a graph $\mathcal{G}$ and the output from the encoding layer. Call this $H$. Let $H^{(l)}$ denote the $l$th hidden layer while $h_i^{(l)}$ is the feature matrix at node $i$ at the $l$th layer. \\\\
-This paper utilizes a series of six GCN combined. These layers, namely, are the GraphSAGE, ChebConv, and  TAGConv layers found in the DGL package. The first layer utilized is the GraphSAGE layer which updates the hidden layer as follows,
+In this paper a combination of six layers are used all of which are implemented in the pytorch\_geometric package as the \verb|ARMAConv| layers as introduced in the following paper. Specifically, the \verb|ARMAConv| architecture was chosen as it showed increased graph classification performance over many standard layers. The layer performs the following set of transformations from layer to layer.\\\\
 \begin{align*}
-    h_{\mathcal{N}(i)}^{(l+1)} &= \text{aggregate}(\{h_j^l \mid j \in \mathcal{N}(i)\}) \\
-    h_{i}^{(l+1)} &= \sigma\left(W \cdot \text{concat} (h_i^l, h_{\mathcal{N}(i)}^{(l+1)} + b)\right) \\
-    h_{i}^{(l+1)} &= \text{norm}(h_{i}^{(l+1)})
+    X' &= \frac{1}{K}\sum_{k=1}^K X_k^{(T)} \\
+    X_k^{(t+1)} &= \sigma(\hat{L}X_k^{(t)}W + X^{(0)}V)
 \end{align*}
-where aggregate represents an aggregation that takes a $x \times L$ feature input where $x$ is variable and converts it to an $L$ element vector. $W$ and $b$ represent learnable parameters while $\sigma$ and norm are activation and normalization functions, respectively. The ChebConv and TAGConv layers follow similar methodologies where they first aggregate the hidden layer, apply a learnable function to the aggregated features and then provides normalization and activation. The following details the update to the hidden layer for ChebConv.
-\begin{align*}
-    h_i^{(l+1)} &= \sum_{k = 0}^{K-1}W^{k,l}z_i^{k,l} \\
-    Z^{0,l} &= H^l \\
-    Z^{1,l} &= \hat{L} \cdot H^l \\
-    Z^{k,l} &= 2\hat{L}\cdot Z^{k-1, l} - Z^{k-2, l} \\
-    \hat{L} &= 2 \frac{I - \hat{D}^{-1/2}\hat{A}\hat{D}^{-1/2}}{\lambda_{max}} - I
-\end{align*}
-In this case, $W$ represents the learnable weight matrix which changes based on layer $l$ and hops $k$. $Z$ represents the aggregated node features while which also varies according to $l$ and $k$. Finally, $\hat{L}$ denotes the graph laplacian while $\hat{D}$ and $\hat{A}$ denote the diagonal degree and adjacency matrices, respectively. Similarly, the update applied to the hidden layer using TAGConv is
-\[
-    H^{l+1} = \sum_{k=0}^K (\hat{D}^{-1/2}\hat{A}\hat{D}^{-1/2})H^lW^{k,l}
-\]
-These layers were all chained together eventually creating an $N \times 2$ matrix.
+Here we have that $\hat{L}$ denotes the modified laplacian where $\hat{L} = I - L = D^{-1/2}AD^{1/2}$. $A$ represents the adjacency matrix of the underlying graph, $\mathcal{G}$ and $D$ represents the diagonal degree matrix of $\mathcal{G}$. Furthermore, $W$ and $V$ are trainable parameters that vary from layer to layer. These layers were all chained together eventually creating an $N \times 2$ matrix.
 
 \subsection{Training}
 As a whole the entire network can be described as
@@ -53,4 +40,4 @@ Suppose that all of the learnable parameters in the model, which are initially r
 \begin{align*}
     L(\Theta) = \sum_{i=0}^N \text{cross\_entropy}(y_i, \hat{y_i})
 \end{align*}
-To train these parameters, and thus the entire network the ADAM optimizer is used. This is possible because all steps in the network are differentiable, and thus, the gradient of $L$ can be calculated with respect to $\Theta$. Hence, ADAM can use backpropagation to train the model.
+To train these parameters, and thus the entire network the ADAM optimizer is used. This is possible because all steps in the network are differentiable, and thus, the gradient of $L$ can be calculated with respect to $\Theta$. Thus, ADAM can use backpropagation to train the weights of the model.
